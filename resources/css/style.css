@@ -1,3 +1,10 @@
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* Header */
 
 header {
@@ -39,18 +46,33 @@ nav a {
 }
 
 /* Main content */
+
 div {
   border: 1px solid black;
 }
 
+h2, p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .content {
   display: flex;
+  justify-content: space-between;
   padding-top: 116px;
+
 }
 
 .column {
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 .column.large {
@@ -63,4 +85,38 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.image-heading {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.image-heading span {
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+}
+
+.story-main{
+  background-image: url("../images/img-story-main.png");
+}
+
+.story-main span {
+  font-size: 40px;
+}
+
+.story1 {
+  background-image: url("../images/img-story-1.png");
+}
+
+.story2 {
+  background-image: url("../images/img-story-2.png");
+}
+
+.story3 {
+  background-image: url("../images/img-story-3.png");
 }

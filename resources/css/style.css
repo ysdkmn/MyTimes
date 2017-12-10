@@ -6,6 +6,7 @@ header {
   align-items: center;
   width: 100%;
   height: 80px;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -34,4 +35,29 @@ header nav {
 
 nav a {
   color: black;
+}
+
+/* Main content */
+div {
+  border: 1px solid black;
+}
+
+.main-container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
